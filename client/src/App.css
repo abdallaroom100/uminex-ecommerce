@@ -1,0 +1,59 @@
+
+
+
+
+.button-transition  {
+    transition: 0.6s all;
+}
+
+
+input::placeholder{
+    font-size: 13px;
+}
+
+
+
+.select__category::before{
+ content: "";
+ position: absolute;
+ right: 0;
+ top: 50%;
+transform: translateY(-50%);
+ width: 1px;
+ height: 17px;
+ background-color: rgb(45, 46, 46);
+}
+
+.categories__menu::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 0px;
+ height: 2px;
+ background: #2b38d1;
+ transition: 0.5s all;
+ }
+
+ .categories__menu:hover::before{
+    width: 100%;
+ }
+
+ .categories__menu::after {
+ content: "";
+ position: absolute;
+ top: 50%;
+ right: 0%;
+transform: translateY(-50%);
+ width: 1px;
+ height: 19px;
+ background: rgb(199, 198, 198);
+ transition: 0.5s all;
+ }
+
+
+
+ .text__dropdown , p ,.drop__down ,.drop__down__menu {
+    transition: 0.45s all cubic-bezier(0.165, 0.84, 0.44, 1) ;
+ }
