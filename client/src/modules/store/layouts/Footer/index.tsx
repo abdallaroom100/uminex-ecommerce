@@ -1,8 +1,10 @@
-
+import Services from "./components/services"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <Services />
+    </div>
   )
 }
 
