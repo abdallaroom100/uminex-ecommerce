@@ -1,9 +1,10 @@
 import { BsCart3 } from "react-icons/bs";
+import { changeCartMenuState } from "../../../globalFunctions/Cart";
 
 const Cart = () => {
   return (
     <>
-      <div className="cart__icon relative p-1 cursor-pointer">
+      <div onClick={()=>changeCartMenuState("open")} className="cart__icon relative p-1 cursor-pointer">
         <p className="cart__counter absolute top-0  h-[17px] w-[17px] text-center  right-[-20%] p-[3px] rounded-full text-white leading-[1] text-[11px] bg-red-500">
           0
         </p>

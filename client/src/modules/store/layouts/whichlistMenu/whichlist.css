@@ -1,0 +1,13 @@
+
+
+
+.whichlist_menu_wrapper {
+    right: -450px;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.whichlist_menu_wrapper.open {
+    right: 0;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
