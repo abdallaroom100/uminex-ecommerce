@@ -1,5 +1,5 @@
 
-import { changeCartMenuState } from "../globalFunctions/Cart";
+import { changeCartMenuState } from "../../../../helper/globalFunctions/Cart";
 import "./cartStyles.css"
 import { GrClose } from "react-icons/gr";
 const index = () => {

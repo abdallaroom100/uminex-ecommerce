@@ -1,4 +1,4 @@
-import { CloseEveryMenu } from "../globalFunctions/CloseAll"
+import { CloseEveryMenu } from "../../../../helper/globalFunctions/CloseAll"
 import "./overlay.css"
 const index = () => {
   return (

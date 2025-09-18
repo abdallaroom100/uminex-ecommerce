@@ -1,5 +1,5 @@
 import { BsCart3 } from "react-icons/bs";
-import { changeCartMenuState } from "../../../globalFunctions/Cart";
+import { changeCartMenuState } from "../../../../../../helper/globalFunctions/Cart";
 
 const Cart = () => {
   return (

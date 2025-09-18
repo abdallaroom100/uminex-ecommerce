@@ -1,5 +1,5 @@
 
-import {changeWhichlistMenuState} from "../globalFunctions/whichlist";
+import {changeWhichlistMenuState} from "../../../../helper/globalFunctions/whichlist";
 import "./whichlist.css"
 import { GrClose } from "react-icons/gr";
 const index = () => {

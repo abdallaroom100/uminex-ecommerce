@@ -1,5 +1,5 @@
 import { FaRegHeart } from "react-icons/fa";
-import { changeWhichlistMenuState } from "../../../globalFunctions/whichlist";
+import { changeWhichlistMenuState } from "../../../../../../helper/globalFunctions/whichlist";
 
 const Whishlist = () => {
   return (

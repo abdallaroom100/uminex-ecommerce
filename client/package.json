@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.4.2",
     "@tailwindcss/vite": "^4.1.12",
     "@types/swiper": "^5.4.3",
     "i18next": "^25.4.2",
@@ -17,6 +18,7 @@
     "path": "^0.12.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-froala-wysiwyg": "^4.6.2",
     "react-i18next": "^15.7.2",
     "react-icons": "^5.5.0",
     "react-leaflet": "^5.0.0",
