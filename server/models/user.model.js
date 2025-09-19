@@ -1,6 +1,24 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken"
+
+
+
+
+const addressesSchema = new mongoose.Schema({
+zip:String,
+phone:String,
+city:String,
+address:String,
+secondAddress :String,
+country:String
+},{
+  _id:false
+})
+
+
+
+
 const userSchema = new mongoose.Schema(
   {
     fullName: {
@@ -23,15 +41,22 @@ const userSchema = new mongoose.Schema(
     password: {
       type: String,
       required: true,
-      // select: false,
-    },
-    socketId: String
 
+    },
+
+    addresses:[addressesSchema],
+    orders:{
+      type:Array,
+      default:[]
+    }
   },
   {
     timestamps: true,
   }
 );
+
+
+
 
 userSchema.methods.comparePassword =  async function  (password) {
   console.log(password,this.password)
